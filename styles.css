@@ -1,0 +1,39 @@
+#container{
+
+    border: 10px solid blue;
+    padding: 100px;
+}
+
+#calculator{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid red;
+}
+
+.display{
+    border: 3px solid black;
+    width: 406px;
+    height: 110px;
+    margin-bottom: 3px;
+}
+
+
+.row1, .row2, .row3, .row4{
+    padding-bottom: 3px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color:  grey;
+}
+
+.zero{
+    width: 204px;
+
+}
+
+
+
