@@ -12,11 +12,18 @@
     border: 10px solid red;
 }
 
-.display{
-    border: 3px solid black;
+#display{
+    border: 3px solid grey;
     width: 406px;
     height: 110px;
     margin-bottom: 3px;
+    font-size: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#content{
+    padding-right: 7px;
 }
 
 
@@ -24,16 +31,18 @@
     padding-bottom: 3px;
 }
 
+.zero{
+    width: 204px;
+}
+
 button{
     width: 100px;
     height: 100px;
-    background-color:  grey;
+    background-color: lightslategray;
+    font-size: large;
 }
 
-.zero{
-    width: 204px;
 
-}
 
 
 
